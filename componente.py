@@ -3,4 +3,6 @@ class Componente:
         self.codice = codice
         self.nome = nome
         self.peso_kg = peso_kg
-    
+        
+    def __str__(self) -> str:
+        print(f"codice: {self.codice}, nome: {self.nome}, peso: {self.peso_kg} kg")
